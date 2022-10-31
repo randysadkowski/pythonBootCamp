@@ -27,5 +27,5 @@ for random_numbers in range(0, nr_numbers):
 total_characters = password_letters + password_symbols + password_numbers
 randomized_password = list(total_characters)
 random.shuffle(randomized_password)
-result = ''.join(randomized_password)
-print(result)
+randomized_password = ''.join(randomized_password)
+print(randomized_password)
